@@ -1,11 +1,4 @@
-# Nuxt 3 Minimal Starter
-
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
-
 ## Setup
-
-Make sure to install the dependencies
-
 ```bash
 yarn install
 ```
@@ -18,12 +11,7 @@ Start the development server on http://localhost:3000
 yarn dev
 ```
 
-## Production
+## Bug reproduction
 
-Build the application for production:
-
-```bash
-yarn build
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+1. Go to `/login`
+2. You will be redirected to `/dashboard`, but the page will be blank. You will also get a warning in the console.
